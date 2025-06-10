@@ -24,7 +24,7 @@ This repository contains a C++ implementation of a lexer and recursive descent p
 - **Numbers**: up to 10 digits, optionally with a decimal point  
 
 ## Example Code
-
+```
 program
 x, y : int;
 begin
@@ -36,9 +36,9 @@ begin
   end if;
   output y;
 end;
-
+```
 ## Example Output
-'''
+```
 PROGRAM  
 DECL_SEC  
 DECL  
@@ -53,13 +53,13 @@ IF_STMT
 COMP  
 OPERAND  
 OPERAND  
-...
+```
 
 ## Error Reporting
-'''
+```
 [Lexer Error] Line 3: Illegal symbol: @  
 [Parse Error] Line 5: Expected ';', got 'end'
-'''
+```
 
 ## File Structure
 
